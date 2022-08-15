@@ -7,10 +7,11 @@
 </head>
 
 <body class="page__body">
-  <header class="header page-header">
+  <header class="header page__header">
     <button class="header__toggle toogle" type="button" aria-label="открыть меню"></button>
     <a href="#" class="header__logo">
-      <img src="/source/img/logo/logo-sedona.svg" width="185" height="96" alt="Логотип «Седона».">
+      <img class="haeder-logo-pic" src="/source/img/logo/logo-sedona.svg" width="185" height="96"
+        alt="Логотип «Седона».">
     </a>
     <nav class="main-nav">
       <ul class="main-nav__list">
@@ -23,12 +24,13 @@
   </header>
   <main class="main-container">
     <div class="hero">
-      <img src="/source/img/text-index.svg" width="461" height="350" alt="Текст «Добро пожадовать в Седону»">
+      <img class="hero__image" src="/source/img/text-index.svg" width="461" height="350"
+        alt="Текст «Добро пожадовать в Седону»">
     </div>
     <section class="main-container__advantages advantages">
-      <div class="advantages__box">
-        <h1 class="advantages__title main__title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
-        <p class="advantages__text main__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+      <div class="advantages__box heading">
+        <h1 class="advantages__title heading__title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
+        <p class="advantages__text heading__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       </div>
       <ol class="advantages__list">
         <li class="advantages__item">
@@ -36,6 +38,8 @@
             <h2 class="advantages__subtitle">Настояшщий городок</h2>
             <p class="advantages__number">— №100 —</p>
             <p class="advantages__description">Седона не аттракцион для туристов, там течет своя жизнь</p>
+            <img class="photo-sedona" src="/source/img/photo-sedona.jpg" alt="Фотография домов в Седоне" width="520"
+              height="260">
           </div>
           <ul class="features">
             <li class="features__item">
@@ -54,9 +58,13 @@
         </li>
         <li>
           <div class="advantages__wrapper advantages__wrapper--dark-theme">
-            <h2 class="advantages__subtitle">Там есть мост Дьявола</h2>
-            <p class="advantages__number">— №2 —</p>
-            <p class="advantages__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+            <div class="advantages__wrapper-desc">
+              <img class="photo-bridge" src="/source/img/photo-bridge.jpg" width="520" height="260"
+                alt="Фотография моста Дьявола">
+              <h2 class="advantages__subtitle">Там есть мост Дьявола</h2>
+              <p class="advantages__number">— №2 —</p>
+              <p class="advantages__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+            </div>
           </div>
         </li>
         <li>
@@ -81,12 +89,16 @@
           </div>
         </li>
       </ol>
+    </section>
+    <section class="search-block">
+      <p class="search-block__interested">Заинтересовались?</p>
+      <p class="search-block__discription">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <button class="search-block__button button" type="button">Найти гостиницу</button>
+      <h2 class="visually-hidden">Расположение Седоны на карте</h2>
       <div class="location">
-        <h2 class="visually-hidden">Расположение Седоны на карте</h2>
         <img src="/source/img/map/map-mobile.jpg" width="320" height="350" alt="Карта с расположением Седоны">
       </div>
     </section>
-
 
   </main>
   <footer class="main-footer">
