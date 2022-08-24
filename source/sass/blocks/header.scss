@@ -1,0 +1,16 @@
+.header {
+  background-color: $primaryColor;
+
+  @include tablet{
+    background-color: $secondaryColor;
+  }
+
+  &__logo {
+    display: block;
+  }
+
+  &__toggle {
+    display: flex;
+  }
+}
+

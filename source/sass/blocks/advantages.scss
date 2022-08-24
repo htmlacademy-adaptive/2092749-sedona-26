@@ -1,0 +1,39 @@
+.advantages {
+
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+
+  &__subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  &__wrapper--dark-theme {
+    background: #81b3d2;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__number {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,13 @@
+.hero{
+  background-image: url("../img/background-hero.jpg");
+  background-color: #82b3d3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+
+  &__image{
+   padding-top: 90px;
+   padding-bottom: 85px;
+  }
+}
