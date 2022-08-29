@@ -5,7 +5,9 @@
     line-height: 26px;
     text-transform: uppercase;
     color: #000000;
-
+    margin: 0;
+    padding-left: 47px;
+    padding-top: 31px;
   }
 
   &__item {
@@ -18,5 +20,8 @@
     line-height: 21px;
     text-transform: uppercase;
     color: #333333;
+    margin: 0;
+    padding-top: 16px;
+    padding-left: 47px;
   }
 }

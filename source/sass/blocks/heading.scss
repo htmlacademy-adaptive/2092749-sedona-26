@@ -1,11 +1,28 @@
 .heading {
+  display: flex;
+  flex-direction: column;
+
   &__title {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans' Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
     color: #000000;
+    // max-width: 282px;
+    padding-left: 18px;
+    padding-top: 32px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+
+    @include tablet {
+     color: #000000;
+     padding-top: 47px;
+     padding-left: 107px;
+     padding-right: 77px;
+     text-align: center;
+    }
   }
 
   &__text {
@@ -13,5 +30,9 @@
     font-size: 14px;
     line-height: 21px;
     color: #333333;
+    padding: 35px 18px 43px 18px;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
   }
 }

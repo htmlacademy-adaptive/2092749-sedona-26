@@ -5,18 +5,19 @@
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="./css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale-1">
 </head>
 
 <body class="page__body">
   <header class="header page__header">
     <button class="header__toggle toogle" type="button" aria-label="открыть меню"></button>
     <a href="#" class="header__logo">
-      <img class="header__logo-pic" src="./img/logo/logo-sedona.svg" width="185" height="96"
-        alt="Логотип «Седона».">
+      <img class="header__logo-pic" src="./img/logo/logo-sedona.svg" width="185" height="96" alt="Логотип «Седона».">
     </a>
     <nav class="main-nav">
       <ul class="main-nav__list">
-        <li class="main-nav__item main-nav__item--active"><a class="main-nav__link" href="#">Главная</a></li>
+        <li class="main-nav__item main-nav__item--active"><a class="main-nav__link main-nav__link--active"
+            href="#">Главная</a></li>
         <li class="main-nav__item"><a class="main-nav__link" href="#">Фото и видео</a></li>
         <li class="main-nav__item"><a class="main-nav__link" href="#">Форма отзыва</a></li>
         <li class="main-nav__item"><a class="main-nav__link" href="#">Html Academy</a></li>
@@ -35,12 +36,14 @@
       </div>
       <ol class="advantages__list">
         <li class="advantages__item">
-          <div class="advantages__wrapper advantages__wrapper--dark-theme">
-            <h2 class="advantages__subtitle">Настоящий городок</h2>
-            <p class="advantages__number">— №1 —</p>
-            <p class="advantages__description">Седона не аттракцион для туристов, там течет своя жизнь</p>
-            <img class="photo-sedona" src="./img/photo-sedona.jpg" alt="Фотография домов в Седоне" width="520"
-              height="260">
+          <div class="advantages__container">
+            <div class="advantages__wrapper advantages__wrapper--dark-theme">
+              <h2 class="advantages__subtitle">Настоящий городок</h2>
+              <p class="advantages__number">— №1 —</p>
+              <p class="advantages__description">Седона не аттракцион для туристов, там течет своя жизнь</p>
+            </div>
+            <img class="photo-sedona" src="./img/photo-city-mobile.jpg" alt="Фотография домов в Седоне" width="512"
+              height="256">
           </div>
           <ul class="features">
             <li class="features__item">
@@ -57,32 +60,33 @@
             </li>
           </ul>
         </li>
-        <li>
-          <div class="advantages__wrapper advantages__wrapper--dark-theme">
-            <div class="advantages__wrapper-desc">
-              <img class="photo-bridge" src="./img/photo-bridge.jpg" width="520" height="260"
-                alt="Фотография моста Дьявола">
+        <li class="advantages__item">
+          <div class="advantages__container">
+            <img class="photo-bridge" src="./img/photo-bridge.jpg" width="520" height="260"
+            alt="Фотография моста Дьявола">
+            <div class="advantages__wrapper advantages__wrapper--dark-theme">
+
               <h2 class="advantages__subtitle">Там есть мост Дьявола</h2>
               <p class="advantages__number">— №2 —</p>
               <p class="advantages__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
             </div>
           </div>
         </li>
-        <li>
+        <li class="advantages__item">
           <div class="advantages__wrapper advantages__wrapper--light-theme">
             <h2 class="advantages__subtitle">Небольшая площадь</h2>
             <p class="advantages__number">— №3 —</p>
             <p class="advantages__description">Все интересный места находятся очень близко</p>
           </div>
         </li>
-        <li>
+        <li class="advantages__item">
           <div class="advantages__wrapper advantages__wrapper--light-theme">
             <h2 class="advantages__subtitle">Красивая дорога</h2>
             <p class="advantages__number">— №4 —</p>
             <p class="advantages__description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </div>
         </li>
-        <li>
+        <li class="advantages__item">
           <div class="advantages__wrapper advantages__wrapper--light-theme">
             <h2 class="advantages__subtitle">Мало туристов</h2>
             <p class="advantages__number">— №5 —</p>
@@ -93,7 +97,8 @@
     </section>
     <section class="search-block">
       <p class="search-block__interested">Заинтересовались?</p>
-      <p class="search-block__discription">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <p class="search-block__discription">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
+        гостиниц в Седоне</p>
       <button class="search-block__button button" type="button">Найти гостиницу</button>
       <h2 class="visually-hidden">Расположение Седоны на карте</h2>
       <div class="location">

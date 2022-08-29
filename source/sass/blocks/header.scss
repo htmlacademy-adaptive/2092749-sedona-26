@@ -1,8 +1,11 @@
 .header {
   background-color: $primaryColor;
 
-  @include tablet{
-    background-color: $secondaryColor;
+  // @include tablet{
+  //   background-color: $secondaryColor;
+  // }
+  @include desktop{
+    background-color: blue;
   }
 
   &__logo {

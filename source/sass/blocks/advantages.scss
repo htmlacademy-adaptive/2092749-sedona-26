@@ -1,24 +1,50 @@
 .advantages {
 
-  font-family: 'PT Sans';
+  font-family: 'PT Sans' Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
+
+
+  &__wrapper{
+    padding-top: 33px;
+    display: flex;
+    flex-direction: column;
+
+    @include tablet{
+      // display: flex;
+      // flex-direction: row;
+    }
+  }
+
+  &__container{
+
+    @include tablet{
+      display: flex;
+    }
+
+  }
 
   &__subtitle {
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
     text-transform: uppercase;
-    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 11px;
   }
 
   &__wrapper--dark-theme {
     background: #81b3d2;
+    color: #ffffff;
   }
 
   &__list {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
 
   &__number {
@@ -26,7 +52,10 @@
     font-size: 14px;
     line-height: 21px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: currentColor;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 17px;
   }
 
   &__description {
@@ -34,6 +63,15 @@
     font-size: 14px;
     line-height: 21px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: currentColor;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+
+  &__wrapper--light-theme {
+    color: #000000;
+    background: #eeeeee;
+    mix-blend-mode: normal;
   }
 }

@@ -1,4 +1,4 @@
-.button{
+.button {
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 21px;
@@ -9,4 +9,13 @@
   background: #81B3D2;
   color: #fff;
   width: 284px;
+  border: none;
+  cursor: pointer;
+
+  // &:hover{
+  //   @include tablet{
+  //     background-color: black;
+  //   }
+  // }
+
 }
