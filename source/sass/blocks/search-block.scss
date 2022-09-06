@@ -1,8 +1,17 @@
 .search-block__button {
   width: 100%;
+margin-bottom: 49px;
+
+
+  @include tablet {
+    display: block;
+    width: 458px;
+    margin: 0 auto
+  }
 }
 
 .search-block {
+  padding-top: 38px;
   padding-left: 18px;
   padding-right: 18px;
 
@@ -13,8 +22,8 @@
     text-transform: uppercase;
     color: #000000;
     text-align: center;
-    margin: 0;
-    padding-bottom: 31px;
+    margin-top: 0;
+    margin-bottom: 31px;
   }
 
   &__discription {
@@ -26,7 +35,12 @@
     text-transform: uppercase;
     color: #333333;
     text-align: center;
-    margin: 0;
-    padding-bottom: 32px;
+    margin-top: 0;
+    margin-bottom: 32px;
+
+    @include tablet {
+      padding-left: 167px;
+      padding-right: 166px;
+    }
   }
 }

@@ -1,0 +1,8 @@
+.location{
+  &__map{
+  @include tablet{
+    width: 768px;
+    height: 350px;
+  }
+}
+}

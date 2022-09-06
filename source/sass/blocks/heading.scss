@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
 
+
+
   &__title {
     font-family: 'PT Sans' Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -10,18 +12,19 @@
     line-height: 26px;
     color: #000000;
     // max-width: 282px;
-    padding-left: 18px;
-    padding-top: 32px;
-    margin: 0;
+    // padding-left: 18px;
+    // padding-top: 32px;
+    margin-top: 0;
+    margin-bottom: 35px;
     text-align: center;
     text-transform: uppercase;
 
     @include tablet {
-     color: #000000;
-     padding-top: 47px;
-     padding-left: 107px;
-     padding-right: 77px;
-     text-align: center;
+      color: #000000;
+      padding-top: 47px;
+      padding-left: 107px;
+      padding-right: 77px;
+      text-align: center;
     }
   }
 
@@ -30,7 +33,7 @@
     font-size: 14px;
     line-height: 21px;
     color: #333333;
-    padding: 35px 18px 43px 18px;
+    // padding: 35px 18px 43px 18px;
     text-align: center;
     margin: 0;
     text-transform: uppercase;

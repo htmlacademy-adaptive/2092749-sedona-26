@@ -1,17 +1,81 @@
 .features {
+
+  padding: 23px 18px 53px 65px;
+  position: relative;
+
+  @include tablet {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   &__title {
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
     text-transform: uppercase;
     color: #000000;
-    margin: 0;
-    padding-left: 47px;
-    padding-top: 31px;
+    margin-top: 0;
+    margin-bottom: 16px;
+
+
+
+    @include tablet {
+      padding: 0;
+      text-align: center;
+      padding-bottom: 15px;
+    }
   }
 
   &__item {
     list-style-type: none;
+
+    @include tablet {
+      padding-top: 158px;
+      padding-bottom: 56px;
+      // padding: 158px 73px 59px 36px;
+      width: 33%;
+    }
+  }
+
+  &__title--home::after {
+    position: absolute;
+    background-image: url("../img/icon/icon-home.svg");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    content: "";
+    left: 19px;
+    top: 13px;
+
+    @include tablet{
+      background-size: contain;
+      width: 75px;
+      height: 72px;
+      top: 81px;
+    left: 138px;
+    }
+  }
+
+  &__title--food::after {
+    position: absolute;
+    background-image: url("../img/icon/icon-food.svg");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    content: "";
+    left: 19px;
+    top: 143px;
+  }
+
+  &__title--souvenirs::before {
+    position: absolute;
+    background-image: url("../img/icon/icon-souvenirs.svg");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    content: "";
+    left: 26px;
+    bottom: 132px;
   }
 
   &__text {
@@ -20,8 +84,13 @@
     line-height: 21px;
     text-transform: uppercase;
     color: #333333;
-    margin: 0;
-    padding-top: 16px;
-    padding-left: 47px;
+    margin-top: 0;
+    margin-bottom: 22px;
+
+
+    @include tablet {
+      padding: 0;
+      text-align: center;
+    }
   }
 }
