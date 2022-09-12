@@ -1,0 +1,24 @@
+.button {
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 16px;
+  background: #81b3d2;
+  color: #ffffff;
+  width: 284px;
+  border: none;
+  cursor: pointer;
+
+  @include tablet{
+
+
+  }
+  // &:hover{
+  //   @include tablet{
+  //     background-color: black;
+  //   }
+  // }
+}

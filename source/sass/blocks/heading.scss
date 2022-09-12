@@ -1,0 +1,40 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+
+  @include tablet {
+    padding-top: 47px;
+    padding-bottom: 55px;
+  }
+
+  &__title {
+    font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    // max-width: 282px;
+    // padding-left: 18px;
+    // padding-top: 32px;
+    margin-top: 0;
+    margin-bottom: 35px;
+    text-align: center;
+    text-transform: uppercase;
+
+    @include tablet {
+      color: #000000;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    // padding: 35px 18px 43px 18px;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+  }
+}
