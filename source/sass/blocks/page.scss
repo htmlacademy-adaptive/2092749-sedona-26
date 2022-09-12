@@ -7,13 +7,15 @@
   max-width: 320px;
   background-color: #ffffff;
 
+  @include tablet {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
   @include desktop {
     max-width: 1200px;
     margin: 0 auto;
   }
 
-  @include tablet {
-    max-width: 768px;
-    margin: 0 auto;
-  }
+
 }

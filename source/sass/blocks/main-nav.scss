@@ -1,3 +1,4 @@
+
 .main-nav {
   position: relative;
 
@@ -15,10 +16,14 @@
 
     @include tablet {
       display: flex;
-      justify-content: space-between;
       background-color: #ffffff;
+
     }
   }
+// &__list:nth-child(2){
+//   margin-right: auto;
+// }
+
 
   &__link {
     display: block;
@@ -47,6 +52,7 @@
 
     @include tablet {
       background-color: #ffffff;
+      width: 153px;
     }
   }
 
