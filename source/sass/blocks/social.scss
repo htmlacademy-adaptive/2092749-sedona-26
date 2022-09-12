@@ -1,18 +1,22 @@
-.social{
-  &__list{
+.social {
+  &__list {
     display: flex;
     justify-content: center;
     gap: 6px;
     flex-wrap: wrap;
   }
-  &__link{
+
+  &__link {
     text-decoration: none;
   }
-  &__item{
+
+  &__item {
     list-style-type: none;
   }
 
-  &__vk-icon, &__telegram-icon, &__youtube-icon{
+  &__vk-icon,
+  &__telegram-icon,
+  &__youtube-icon {
     fill: #ffffff;
   }
 }

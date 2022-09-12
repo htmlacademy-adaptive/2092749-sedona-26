@@ -12,13 +12,16 @@
     background-image: url("../img/background-herojpg@2x.jpg");
   }
 
+  @include tablet {
+    background-image: url("../img/back-desktop.jpg");
+  }
+
   &__image {
     display: block;
     padding-top: 90px;
     max-width: 100%;
     margin: 0 auto;
   }
-
 }
 
 .hero::before {
@@ -32,5 +35,4 @@
   height: 57px;
   background-position: center;
   bottom: 0;
-
 }

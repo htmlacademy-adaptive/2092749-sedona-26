@@ -33,18 +33,17 @@
     @include tablet {
       display: none;
     }
-
   }
 
   &__toggle::before {
     content: "";
     position: absolute;
     top: 1px;
-    left: 0px;
+    left: 0;
     width: 23px;
     height: 4px;
-    background-color: #81B3D2;
-    box-shadow: 0 8px 0 0 #81B3D2, 0 16px 0 0 #81B3D2;
+    background-color: #81b3d2;
+    box-shadow: 0 8px 0 0 #81b3d2, 0 16px 0 0 #81b3d2;
 
     @include tablet {
       display: none;

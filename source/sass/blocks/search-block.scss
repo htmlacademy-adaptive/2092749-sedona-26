@@ -1,12 +1,12 @@
 .search-block__button {
   width: 100%;
-margin-bottom: 49px;
+  margin-bottom: 49px;
 
 
   @include tablet {
     display: block;
     width: 458px;
-    margin: 0 auto
+    margin: 0 auto;
   }
 }
 
@@ -27,7 +27,7 @@ margin-bottom: 49px;
   }
 
   &__discription {
-    font-family: 'PT Sans';
+    font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
