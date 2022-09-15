@@ -1,6 +1,9 @@
-
 .main-nav {
   position: relative;
+
+  &__item:nth-child(2) {
+    margin-right: auto;
+  }
 
   &__list {
     list-style-type: none;
@@ -16,13 +19,14 @@
 
     @include tablet {
       display: flex;
-      background-color: #ffffff;
-
+      background-color: $primaryColor;
+      flex-wrap: wrap;
     }
   }
-// &__list:nth-child(2){
-//   margin-right: auto;
-// }
+
+  // &__list:nth-child(2){
+  //   margin-right: auto;
+  // }
 
 
   &__link {
@@ -31,7 +35,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
-    color: #ffffff;
+    color: $primaryColor;
     padding-top: 17px;
     padding-bottom: 12px;
 
@@ -42,7 +46,7 @@
       font-size: 14px;
       line-height: 21px;
       text-transform: uppercase;
-      color: #000000;
+      color: $secondaryColor;
     }
   }
 
@@ -51,8 +55,12 @@
     text-align: center;
 
     @include tablet {
-      background-color: #ffffff;
+      background-color: $primaryColor;
       width: 153px;
+      box-shadow: none;
+    }
+    @include desktop{
+      width: 240px;
     }
   }
 

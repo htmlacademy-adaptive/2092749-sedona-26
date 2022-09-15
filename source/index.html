@@ -6,9 +6,9 @@
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="./css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale-1">
-  <link rel="icon" href="favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 </head>
 
 <body class="page__body">
@@ -46,7 +46,7 @@
   <header class="header page__header">
     <button class="header__toggle toggle header__toggle--active" type="button" aria-label="открыть меню"></button>
     <a href="#" class="header__logo">
-      <img class="header__logo-pic" src="./img/logo/logo-sedona.svg" width="185" height="96" alt="Логотип «Седона».">
+      <img class="header__logo-pic" src="../img/logo/logo-sedona.svg" width="185" height="96" alt="Логотип «Седона».">
     </a>
     <nav class="main-nav">
       <ul class="main-nav__list main-nav__list--opened">
@@ -60,7 +60,7 @@
   </header>
   <main class="main-container">
     <div class="hero">
-      <img class="hero__image" src="./img/text-index.svg" width="282" height="214"
+      <img class="hero__image" src="../img/text-index.svg" width="282" height="214"
         alt="Текст «Добро пожадовать в Седону»">
     </div>
     <section class="main-container__advantages advantages">
@@ -79,14 +79,14 @@
             </div>
             <picture>
               <source media="(min-width: 1200px)" type="image/webp"
-                srcset="/img/content/photo-city-desktop@1x.webp 1x, /img/content/photo-city-desktop@1x@2x.webp 2x">
-              <source media="(min-width: 1200px)" srcset="/img/content/photo-city-desktop@1x.jpg">
+                srcset="./img/content/photo-city-desktop@1x.webp 1x, ./img/content/photo-city-desktop@1x@2x.webp 2x">
+              <source media="(min-width: 1200px)" srcset="./img/content/photo-city-desktop@1x.jpg">
               <source media="(min-width: 768px)" type="image/webp"
-                srcset="/img/content/photo-city-tablet@1x.webp 1x, /img/content/photo-city-tablet@1x.webp 2x">
-              <source media="(min-width: 768px)" srcset="/img/content/photo-city-tablet@1x.jpg">
+                srcset="./img/content/photo-city-tablet@1x.webp 1x, ./img/content/photo-city-tablet@1x.webp 2x">
+              <source media="(min-width: 768px)" srcset="./img/content/photo-city-tablet@1x.jpg">
               <source type="image/webp"
-                srcset="/img/content/photo-city-phone@1x.webp 1x, /img/content/photo-city-phone@1x@2x.webp 2x">
-              <img class="advantages__photo" src="/img/content/photo-city@1x.jpg" width="320" height="260"
+                srcset="./img/content/photo-city-phone@1x.webp 1x, ./img/content/photo-city-phone@1x@2x.webp 2x">
+              <img class="advantages__photo" src="./img/content/photo-city@1x.jpg" width="320" height="260"
                 alt="Фотография дома в Седоне">
             </picture>
           </div>
@@ -112,11 +112,11 @@
                 srcset="img/content/photo-bridge-desktop@1x.webp 1x, img/content/photo-bridge-desktop@1x@2x.webp 2x">
               <source media="(min-width: 1200px)" srcset="img/content/photo-bridge-desktop@1x.jpg">
               <source media="(min-width: 768px)" type="image/webp"
-                srcset="/img/content/photo-bridge-tablet@1x.webp 1x, /img/content/photo-bridge-tablet@1x@2x.webp 2x">
-              <source media="(min-width: 768px)" srcset="/img/content/photo-bridge-tablet@1x.jpg">
+                srcset="./img/content/photo-bridge-tablet@1x.webp 1x, ./img/content/photo-bridge-tablet@1x@2x.webp 2x">
+              <source media="(min-width: 768px)" srcset="./img/content/photo-bridge-tablet@1x.jpg">
               <source type="image/webp"
-                srcset="/img/content/photo-bridge-phone@1x.webp 1x, /img/content/photo-bridge-phone@1x1@2x.webp 2x">
-              <img class="advantages__photo" src="/img/content/photo-bridge-phone@1x.jpg" width="320" height="260"
+                srcset="./img/content/photo-bridge-phone@1x.webp 1x, ./img/content/photo-bridge-phone@1x1@2x.webp 2x">
+              <img class="advantages__photo" src="./img/content/photo-bridge-phone@1x.jpg" width="320" height="260"
                 alt="Фотография каньона Дьявола">
             </picture>
             <div class="advantages__wrapper advantages__wrapper--dark-theme">
@@ -129,7 +129,7 @@
         <div class="advantages__div">
           <li class="advantages__item advantages__item-light-theme">
             <div class="advantages__wrapper advantages__wrapper--light-theme">
-              <h2 class="advantages__subtitle">Небольшая площадь</h2>
+              <h2 class="advantages__subtitle">Небольшая<br> площадь</h2>
               <p class="advantages__number">— №3 —</p>
               <p class="advantages__description">Все интересный места находятся очень близко</p>
             </div>
@@ -210,7 +210,7 @@
 
   </footer>
 
-
+<script src="./js/nav.js"></script>
 
 </body>
 

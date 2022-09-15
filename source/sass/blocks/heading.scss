@@ -13,7 +13,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
-    color: #000000;
+    color: $secondaryColor;
     // max-width: 282px;
     // padding-left: 18px;
     // padding-top: 32px;
@@ -23,7 +23,7 @@
     text-transform: uppercase;
 
     @include tablet {
-      color: #000000;
+      color: $secondaryColor;
     }
   }
 
